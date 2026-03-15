@@ -1,0 +1,5 @@
+# Ignore all build and devel directories recursively
+**/build/
+**/build/**
+**/devel/
+**/devel/**
