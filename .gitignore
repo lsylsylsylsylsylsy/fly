@@ -3,29 +3,29 @@
 **/build/**
 **/devel/
 **/devel/**
-**/install/
-**/install/**
-**/log/
-**/log/**
-**/logs/
-**/logs/**
-**/test_results/
-**/test_results/**
-**/.catkin_tools/
-**/.catkin_tools/**
-**/.catkin_workspace
+#**/install/
+#**/install/**
+#**/log/
+#**/log/**
+#**/logs/
+#**/logs/**
+#**/test_results/
+#**/test_results/**
+#**/.catkin_tools/
+#**/.catkin_tools/**
+#**/.catkin_workspace
 
 # CMake-generated files
-**/CMakeFiles/
-**/CMakeFiles/**
-**/CMakeCache.txt
-**/cmake_install.cmake
-**/CTestTestfile.cmake
-**/CTestConfiguration.ini
-**/Makefile
-**/compile_commands.json
-**/catkin_generated/
-**/catkin_generated/**
+#**/CMakeFiles/
+#**/CMakeFiles/**
+#**/CMakeCache.txt
+#**/cmake_install.cmake
+#**/CTestTestfile.cmake
+#**/CTestConfiguration.ini
+#**/Makefile
+#**/compile_commands.json
+#**/catkin_generated/
+#**/catkin_generated/**
 
 # Editor settings
 **/.vscode/
@@ -33,5 +33,3 @@
 
 # Catkin workspace toplevel file generated under src/
 /real_ws/src/CMakeLists.txt
-.vscode/settings.json
-real_ws/src/px4ctrl/CMakeLists.txt

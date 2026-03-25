@@ -38,9 +38,12 @@ add_executable(px4ctrl_node
   src/input.cpp
 )
 
-add_dependencies(px4ctrl_node quadrotor_msgs)
+add_dependencies(px4ctrl_node
+  ${${PROJECT_NAME}_EXPORTED_TARGETS}
+  ${catkin_EXPORTED_TARGETS}
+  quadrotor_msgs_generate_messages_cpp
+)
 
 target_link_libraries(px4ctrl_node
   ${catkin_LIBRARIES}
 )
-
