@@ -33,3 +33,6 @@
 
 # Catkin workspace toplevel file generated under src/
 /real_ws/src/CMakeLists.txt
+.spec-workflow/templates/**
+.spec-workflow/user-templates/**
+real_ws/CLAUDE.md
